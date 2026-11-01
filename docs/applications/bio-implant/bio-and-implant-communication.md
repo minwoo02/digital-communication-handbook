@@ -2542,4 +2542,4 @@ Bio/Implant Communication은 **생체에서 발생한 정보를 Electrode와 Ana
 
 ---
 
-이전: [QPSK 수신기 완전 정리: Correlator·Matched Filter부터 Bandpass/Baseband 복조와 OQPSK까지](../../theory/modulation/qpsk-receivers-and-oqpsk.md)
+블록도 기준: [21. 포맷팅·정보 복원](../../blocks/format-output.md) · [전체 로드맵](../../roadmap.md)
