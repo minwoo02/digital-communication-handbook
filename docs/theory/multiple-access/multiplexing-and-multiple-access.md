@@ -1681,6 +1681,4 @@ Complexity
 
 ---
 
-이전: [채널·잡음·BER와 Shannon Capacity](../channel/noise-ber-and-shannon-capacity.md)
-
-다음: [Spread Spectrum: DSSS, FHSS, THSS와 대역확산](spread-spectrum.md)
+블록도 기준: [05. 다중화](../../blocks/multiplexing.md) · [전체 로드맵](../../roadmap.md)

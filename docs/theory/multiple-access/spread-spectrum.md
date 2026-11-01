@@ -1821,6 +1821,4 @@ Spread Spectrum은 **원래 정보 신호를 PN Code, Frequency Hopping 또는 T
 
 ---
 
-이전: [다중화와 다중 접속](multiplexing-and-multiple-access.md)
-
-다음: [통신 시스템의 하드웨어 설계](../../applications/hardware/communication-hardware-design.md)
+블록도 기준: [08. 주파수 확산](../../blocks/frequency-spreading.md) · [전체 로드맵](../../roadmap.md)
