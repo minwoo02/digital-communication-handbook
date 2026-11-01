@@ -2013,6 +2013,4 @@ $$
 
 ---
 
-이전: [통신 시스템의 하드웨어 설계](../../applications/hardware/communication-hardware-design.md)
-
-다음: [디지털 대역통과 변조와 신호공간: 안테나·동기 검파·BPSK·QPSK 완전 정리](../modulation/bandpass-modulation-and-signal-space.md)
+블록도 기준: [04. 채널 부호화](../../blocks/channel-encoding.md) · [전체 로드맵](../../roadmap.md)
