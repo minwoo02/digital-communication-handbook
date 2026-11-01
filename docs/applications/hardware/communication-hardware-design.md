@@ -2205,6 +2205,4 @@ Receiver에서는 이 순서가 반대로 진행된다.
 
 ---
 
-이전: [Spread Spectrum: DSSS, FHSS, THSS와 대역확산](../../theory/multiple-access/spread-spectrum.md)
-
-다음: [채널 코딩과 에러 제어: Block Coding, Hamming Code, Syndrome와 Convolution Coding](../../theory/coding/channel-coding-and-error-control.md)
+블록도 기준: [10. 송신기](../../blocks/transmitter.md) · [전체 로드맵](../../roadmap.md)
