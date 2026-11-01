@@ -2,25 +2,58 @@
 
 [TOC]
 
-## 순서대로 읽기
+정보원 → 송신기(1~10) → 채널(11) → 수신기(12~21) → 목적지 순서로 읽는다. 목차의 번호도 아래 블록도와 동일하다.
 
-1. [디지털 통신의 전체 구조와 핵심 개념](theory/foundations/communication-system-overview.md)
-2. [아날로그 정보가 디지털 전송 파형이 되기까지](theory/foundations/analog-information-to-digital-waveforms.md)
-3. [디지털 변조와 신호자리표: Bit에서 QAM까지](theory/modulation/digital-modulation-and-constellations.md)
-4. [Wireless Channel 완전 정리: Path Loss·Multipath·Fading·Delay Spread·Doppler부터 MIMO까지](theory/channel/wireless-channel-and-fading.md)
-5. [채널·잡음·BER와 Shannon Capacity](theory/channel/noise-ber-and-shannon-capacity.md)
-6. [다중화와 다중 접속](theory/multiple-access/multiplexing-and-multiple-access.md)
-7. [Spread Spectrum: DSSS, FHSS, THSS와 대역확산](theory/multiple-access/spread-spectrum.md)
-8. [통신 시스템의 하드웨어 설계](applications/hardware/communication-hardware-design.md)
-9. [채널 코딩과 에러 제어: Block Coding, Hamming Code, Syndrome와 Convolution Coding](theory/coding/channel-coding-and-error-control.md)
-10. [디지털 대역통과 변조와 신호공간: 안테나·동기 검파·BPSK·QPSK 완전 정리](theory/modulation/bandpass-modulation-and-signal-space.md)
-11. [디지털 통신의 대역폭 효율과 I/Q 변조: Raised Cosine부터 직교 신호 복원까지](theory/modulation/bandwidth-efficiency-and-iq-modulation.md)
-12. [QPSK 완전 정리: I/Q 직교 변조부터 복소 기저대역 신호·Gray Encoding·위상 성상도와 대역폭 효율까지](theory/modulation/qpsk-and-complex-baseband.md)
-13. [QPSK 수신기 완전 정리: Correlator·Matched Filter부터 Bandpass/Baseband 복조와 OQPSK까지](theory/modulation/qpsk-receivers-and-oqpsk.md)
-14. [Bio/Implant Communication으로 연결하기](applications/bio-implant/bio-and-implant-communication.md)
+![디지털 통신 시스템 전체 블록도](assets/images/communication-system-block-diagram.png)
+
+**필수·선택 표시는 첨부 블록도의 구분을 따른다.** 실제 시스템에서는 목적과 환경에 따라 선택 과정을 사용하거나 일부 기능을 통합한다. 상세 글이 없는 블록은 전체 구조 글의 해당 설명으로 연결한다.
+
+## 송신기 · Transmitter
+
+| 블록 | 과정 | 구분 |
+| --- | --- | --- |
+| 01 | [포맷팅 · Format](blocks/format-input.md) | 필수 |
+| 02 | [소스 부호화 · Source encode](blocks/source-encoding.md) | 선택 |
+| 03 | [암호화 · Encrypt](blocks/encryption.md) | 선택 |
+| 04 | [채널 부호화 · Channel encode](blocks/channel-encoding.md) | 선택 |
+| 05 | [다중화 · Multiplex](blocks/multiplexing.md) | 선택 |
+| 06 | [펄스 변조 · Pulse modulate](blocks/pulse-modulation.md) | 필수 |
+| 07 | [대역통과 변조 · Bandpass modulate](blocks/bandpass-modulation.md) | 필수 |
+| 08 | [주파수 확산 · Frequency spread](blocks/frequency-spreading.md) | 선택 |
+| 09 | [다중 접속 · Multiple access](blocks/multiple-access-transmit.md) | 선택 |
+| 10 | [송신기 · XMT](blocks/transmitter.md) | 필수 |
+
+## 채널 · Channel
+
+| 블록 | 과정 | 구분 |
+| --- | --- | --- |
+| 11 | [채널 · Channel](blocks/channel.md) | 필수 |
+
+## 수신기 · Receiver
+
+| 블록 | 과정 | 구분 |
+| --- | --- | --- |
+| 12 | [수신기 · RCV](blocks/receiver.md) | 필수 |
+| 13 | [다중 접속 · Multiple access](blocks/multiple-access-receive.md) | 선택 |
+| 14 | [주파수 역확산 · Frequency despread](blocks/frequency-despreading.md) | 선택 |
+| 15 | [복조 및 샘플링 · Demodulate & Sample](blocks/demodulation-and-sampling.md) | 필수 |
+| 16 | [검파 · Detect](blocks/detection.md) | 필수 |
+| 17 | [역다중화 · Demultiplex](blocks/demultiplexing.md) | 선택 |
+| 18 | [채널 복호화 · Channel decode](blocks/channel-decoding.md) | 선택 |
+| 19 | [복호화 · Decrypt](blocks/decryption.md) | 선택 |
+| 20 | [소스 복호화 · Source decode](blocks/source-decoding.md) | 선택 |
+| 21 | [포맷팅·정보 복원 · Format](blocks/format-output.md) | 필수 |
+
+## 공통 과정 · Synchronization
+
+[동기화: 송수신 전반의 타이밍·주파수·위상 기준 맞추기](blocks/synchronization.md)
+
+## 목적지와 응용
+
+[Bio/Implant Communication으로 연결하기](applications/bio-implant/bio-and-implant-communication.md)
 
 ## 개념 지도
 
-개념을 누르면 관련 문서로 이동한다. 지도가 화면보다 크면 좌우로 스크롤해 볼 수 있다.
+블록도의 순서를 가지별로 따라가며 개념을 누르면 해당 단계로 이동한다. 화면보다 크면 좌우로 스크롤할 수 있다.
 
-<nav class="handbook-concept-map" aria-label="개념별 관련 문서" tabindex="0"><ul><li><a href="index.md">Digital Communication Handbook</a><ul><li><a href="theory/foundations/index.md">Theory</a><ul><li><a href="theory/foundations/index.md">Foundations</a><ul><li><a href="theory/foundations/communication-system-overview.md">디지털 통신의 전체 구조와 핵심 개념</a></li><li><a href="theory/foundations/analog-information-to-digital-waveforms.md">아날로그 정보가 디지털 전송 파형이 되기까지</a></li></ul></li><li><a href="theory/modulation/index.md">Modulation &amp; Signal Space</a><ul><li><a href="theory/modulation/digital-modulation-and-constellations.md">디지털 변조와 신호자리표: Bit에서 QAM까지</a></li><li><a href="theory/modulation/bandpass-modulation-and-signal-space.md">디지털 대역통과 변조와 신호공간: 안테나·동기 검파·BPSK·QPSK 완전 정리</a></li><li><a href="theory/modulation/bandwidth-efficiency-and-iq-modulation.md">디지털 통신의 대역폭 효율과 I/Q 변조: Raised Cosine부터 직교 신호 복원까지</a></li><li><a href="theory/modulation/qpsk-and-complex-baseband.md">QPSK 완전 정리: I/Q 직교 변조부터 복소 기저대역 신호·Gray Encoding·위상 성상도와 대역폭 효율까지</a></li><li><a href="theory/modulation/qpsk-receivers-and-oqpsk.md">QPSK 수신기 완전 정리: Correlator·Matched Filter부터 Bandpass/Baseband 복조와 OQPSK까지</a></li></ul></li><li><a href="theory/channel/index.md">Channel &amp; Performance</a><ul><li><a href="theory/channel/wireless-channel-and-fading.md">Wireless Channel 완전 정리: Path Loss·Multipath·Fading·Delay Spread·Doppler부터 MIMO까지</a></li><li><a href="theory/channel/noise-ber-and-shannon-capacity.md">채널·잡음·BER와 Shannon Capacity</a></li></ul></li><li><a href="theory/coding/index.md">Coding &amp; Error Control</a><ul><li><a href="theory/coding/channel-coding-and-error-control.md">채널 코딩과 에러 제어: Block Coding, Hamming Code, Syndrome와 Convolution Coding</a></li></ul></li><li><a href="theory/multiple-access/index.md">Multiple Access &amp; Spread Spectrum</a><ul><li><a href="theory/multiple-access/multiplexing-and-multiple-access.md">다중화와 다중 접속</a></li><li><a href="theory/multiple-access/spread-spectrum.md">Spread Spectrum: DSSS, FHSS, THSS와 대역확산</a></li></ul></li></ul></li><li><a href="applications/hardware/index.md">Applications</a><ul><li><a href="applications/hardware/index.md">Hardware Design</a><ul><li><a href="applications/hardware/communication-hardware-design.md">통신 시스템의 하드웨어 설계</a></li></ul></li><li><a href="applications/bio-implant/index.md">Bio / Implant Communication</a><ul><li><a href="applications/bio-implant/bio-and-implant-communication.md">Bio/Implant Communication으로 연결하기</a></li></ul></li></ul></li></ul></li></ul></nav>
+<nav class="handbook-concept-map" aria-label="개념별 관련 문서" tabindex="0"><ul><li><a href="theory/foundations/communication-system-overview.md">Digital Communication System</a><ul><li><a href="blocks/format-input.md">송신기 · 1~10</a><ul><li><a href="blocks/format-input.md">01. 포맷팅</a></li><li><a href="blocks/source-encoding.md">02. 소스 부호화</a></li><li><a href="blocks/encryption.md">03. 암호화</a></li><li><a href="blocks/channel-encoding.md">04. 채널 부호화</a></li><li><a href="blocks/multiplexing.md">05. 다중화</a></li><li><a href="blocks/pulse-modulation.md">06. 펄스 변조</a></li><li><a href="blocks/bandpass-modulation.md">07. 대역통과 변조</a></li><li><a href="blocks/frequency-spreading.md">08. 주파수 확산</a></li><li><a href="blocks/multiple-access-transmit.md">09. 다중 접속</a></li><li><a href="blocks/transmitter.md">10. 송신기</a></li></ul></li><li><a href="blocks/channel.md">채널 → 수신기 → 목적지</a><ul><li><a href="blocks/channel.md">11. 채널</a></li><li><a href="blocks/receiver.md">수신기 · 12~21</a><ul><li><a href="blocks/receiver.md">12. 수신기</a></li><li><a href="blocks/multiple-access-receive.md">13. 다중 접속</a></li><li><a href="blocks/frequency-despreading.md">14. 주파수 역확산</a></li><li><a href="blocks/demodulation-and-sampling.md">15. 복조 및 샘플링</a></li><li><a href="blocks/detection.md">16. 검파</a></li><li><a href="blocks/demultiplexing.md">17. 역다중화</a></li><li><a href="blocks/channel-decoding.md">18. 채널 복호화</a></li><li><a href="blocks/decryption.md">19. 복호화</a></li><li><a href="blocks/source-decoding.md">20. 소스 복호화</a></li><li><a href="blocks/format-output.md">21. 포맷팅·정보 복원</a></li></ul></li><li><a href="applications/bio-implant/bio-and-implant-communication.md">목적지·응용</a></li><li><a href="blocks/synchronization.md">공통·동기화</a></li></ul></li></ul></li></ul></nav>
