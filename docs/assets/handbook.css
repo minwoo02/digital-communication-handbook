@@ -1,0 +1,196 @@
+/* Keep the article outline visible at every viewport width. */
+.md-content .toc {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .5rem;
+  background: var(--md-code-bg-color);
+  max-height: 18rem;
+  overflow-y: auto;
+}
+.md-content .toctitle { font-weight: 700; }
+.md-content .toc ul { margin-bottom: 0; }
+.md-content .toc a { overflow-wrap: anywhere; }
+
+/* Share modest page gutters across the header, tabs, and article layout. */
+:root { --handbook-page-gutter: clamp(12px, 1.5vw, 32px); }
+.md-header__inner.md-grid,
+.md-tabs > .md-grid,
+.md-main__inner.md-grid {
+  width: calc(100% - 2 * var(--handbook-page-gutter));
+  max-width: none;
+  margin-inline: var(--handbook-page-gutter);
+}
+.md-header__inner.md-grid { padding-inline: .4rem; }
+
+/* The desktop sidebar control is the first icon in the header. */
+.handbook-navigation-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  padding: .4rem;
+  margin: 0 .2rem 0 0;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: .35rem;
+}
+.handbook-navigation-toggle svg { width: 1.1rem; height: 1.1rem; }
+.handbook-navigation-toggle:hover {
+  color: var(--md-accent-fg-color);
+  background: var(--md-default-fg-color--lightest);
+}
+.handbook-navigation-toggle:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.handbook-navigation-toggle[hidden] { display: none; }
+@media screen and (min-width: 76.25em) {
+  .handbook-navigation-toggle:not([hidden]) { display: inline-flex; }
+  .handbook-navigation-collapsed .md-sidebar--primary,
+  .handbook-navigation-unavailable .md-sidebar--primary { display: none; }
+  /* Avoid an empty column before JavaScript initializes on top-level pages. */
+  .md-sidebar--primary:not(:has(.md-nav__item--active.md-nav__item--nested)) {
+    display: none;
+  }
+  [dir=ltr] .handbook-navigation-collapsed .md-content > .md-content__inner,
+  [dir=ltr] .handbook-navigation-unavailable .md-content > .md-content__inner {
+    margin-left: .8rem;
+  }
+}
+
+/* Emphasize category headings, keeping article links and outlines regular. */
+.md-sidebar .md-nav__link,
+.md-content .toc a { font-weight: 400; }
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__link,
+.md-sidebar--primary .md-nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link {
+  font-weight: 700;
+}
+
+/* A raised reading surface, with a softer edge in dark mode. */
+:root {
+  --handbook-article-shadow: 0 3px 8px rgb(15 23 42 / 5%), 0 14px 36px rgb(15 23 42 / 9%);
+}
+[data-md-color-scheme="slate"] {
+  --handbook-article-shadow: 0 3px 8px rgb(0 0 0 / 18%), 0 14px 36px rgb(0 0 0 / 28%);
+}
+.md-content > .md-content__inner {
+  padding: clamp(16px, 2vw, 32px);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .7rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--handbook-article-shadow);
+}
+
+/* A two-sided mind map with real document links on every node. */
+.md-typeset .handbook-concept-map {
+  overflow: auto;
+  font-size: .65rem;
+  max-width: 100%;
+  padding: 1rem;
+  margin-block: 1.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .6rem;
+  background: var(--md-code-bg-color);
+}
+.md-typeset .handbook-concept-map ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.md-typeset .handbook-concept-map li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: .25rem 0;
+  gap: 1rem;
+}
+.md-typeset .handbook-concept-map li > ul {
+  position: relative;
+  padding-left: 1rem;
+  border-left: 2px solid var(--handbook-branch-color, var(--md-default-fg-color--lighter));
+}
+.md-typeset .handbook-concept-map li > ul::before,
+.md-typeset .handbook-concept-map li > ul > li::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  top: 50%;
+  left: -1rem;
+  border-top: 2px solid var(--handbook-branch-color, var(--md-default-fg-color--lighter));
+}
+.md-typeset .handbook-concept-map li > ul::before { left: -1rem; }
+.md-typeset .handbook-concept-map a {
+  display: block;
+  flex-shrink: 0;
+  max-width: 9rem;
+  padding: .4rem .65rem;
+  border: 1px solid var(--handbook-branch-color, var(--md-default-fg-color--lightest));
+  border-radius: .6rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  box-shadow: 0 2px 5px rgb(15 23 42 / 7%);
+}
+.md-typeset .handbook-concept-map a:hover,
+.md-typeset .handbook-concept-map a:focus-visible {
+  color: var(--md-accent-fg-color);
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.md-typeset .handbook-concept-map > ul > li {
+  display: grid;
+  grid-template-columns: max-content 8rem max-content;
+  gap: 1rem;
+  width: max-content;
+  min-width: 100%;
+  justify-content: center;
+}
+.md-typeset .handbook-concept-map > ul > li > a {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+  border: 2px solid var(--md-accent-fg-color);
+}
+.md-typeset .handbook-concept-map > ul > li > ul {
+  display: contents;
+}
+.md-typeset .handbook-concept-map > ul > li > ul::before { display: none; }
+.md-typeset .handbook-concept-map > ul > li > ul > li { grid-row: 1; }
+.md-typeset .handbook-concept-map > ul > li > ul > li > a { font-weight: 700; }
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child {
+  grid-column: 1;
+  --handbook-branch-color: #6986cb;
+}
+.md-typeset .handbook-concept-map > ul > li > ul > li:last-child {
+  grid-column: 3;
+  --handbook-branch-color: #36a49a;
+}
+/* Mirror Theory so both branches grow outwards from the central topic. */
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child,
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child li {
+  flex-direction: row-reverse;
+}
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child ul {
+  padding-left: 0;
+  padding-right: 1rem;
+  border-left: 0;
+  border-right: 2px solid var(--handbook-branch-color);
+}
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child ul::before,
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child ul > li::before {
+  left: auto;
+  right: -1rem;
+}
+.md-typeset .handbook-concept-map > ul > li > ul > li:first-child::before {
+  left: auto;
+  right: -1rem;
+}
