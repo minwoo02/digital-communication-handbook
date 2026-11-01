@@ -2772,6 +2772,4 @@ OQPSK
 
 ---
 
-이전: [QPSK 완전 정리: I/Q 직교 변조부터 복소 기저대역 신호·Gray Encoding·위상 성상도와 대역폭 효율까지](qpsk-and-complex-baseband.md)
-
-다음: [Bio/Implant Communication으로 연결하기](../../applications/bio-implant/bio-and-implant-communication.md)
+블록도 기준: [15. 복조 및 샘플링](../../blocks/demodulation-and-sampling.md) · [전체 로드맵](../../roadmap.md)

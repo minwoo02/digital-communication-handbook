@@ -3157,6 +3157,4 @@ Digital Modulation은 **Bit를 Symbol과 Constellation Point로 Mapping하여 �
 
 ---
 
-이전: [아날로그 정보가 디지털 전송 파형이 되기까지](../foundations/analog-information-to-digital-waveforms.md)
-
-다음: [Wireless Channel 완전 정리: Path Loss·Multipath·Fading·Delay Spread·Doppler부터 MIMO까지](../channel/wireless-channel-and-fading.md)
+블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)

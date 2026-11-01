@@ -4752,6 +4752,4 @@ Orthogonal Basis Function, Signal Vector, Coherent Detection은 이러한 내용
 
 ---
 
-이전: [채널 코딩과 에러 제어: Block Coding, Hamming Code, Syndrome와 Convolution Coding](../coding/channel-coding-and-error-control.md)
-
-다음: [디지털 통신의 대역폭 효율과 I/Q 변조: Raised Cosine부터 직교 신호 복원까지](bandwidth-efficiency-and-iq-modulation.md)
+블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)

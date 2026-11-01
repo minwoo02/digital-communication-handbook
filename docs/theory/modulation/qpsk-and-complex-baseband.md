@@ -2603,6 +2603,4 @@ $$
 
 ---
 
-이전: [디지털 통신의 대역폭 효율과 I/Q 변조: Raised Cosine부터 직교 신호 복원까지](bandwidth-efficiency-and-iq-modulation.md)
-
-다음: [QPSK 수신기 완전 정리: Correlator·Matched Filter부터 Bandpass/Baseband 복조와 OQPSK까지](qpsk-receivers-and-oqpsk.md)
+블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)

@@ -5289,6 +5289,4 @@ I/Q Representation과 Orthogonality는 이러한 수신기의 동작 원리를 �
 
 ---
 
-이전: [디지털 대역통과 변조와 신호공간: 안테나·동기 검파·BPSK·QPSK 완전 정리](bandpass-modulation-and-signal-space.md)
-
-다음: [QPSK 완전 정리: I/Q 직교 변조부터 복소 기저대역 신호·Gray Encoding·위상 성상도와 대역폭 효율까지](qpsk-and-complex-baseband.md)
+블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)
