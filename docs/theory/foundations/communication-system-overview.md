@@ -1926,4 +1926,4 @@ Frame Synchronization
 
 ---
 
-다음: [아날로그 정보가 디지털 전송 파형이 되기까지](analog-information-to-digital-waveforms.md)
+[블록도 순서로 학습하기](../../roadmap.md) · [공통·동기화](../../blocks/synchronization.md)

@@ -2693,6 +2693,4 @@ $$
 
 ---
 
-이전: [디지털 통신의 전체 구조와 핵심 개념](communication-system-overview.md)
-
-다음: [디지털 변조와 신호자리표: Bit에서 QAM까지](../modulation/digital-modulation-and-constellations.md)
+블록도 기준: [06. 펄스 변조](../../blocks/pulse-modulation.md) · [전체 로드맵](../../roadmap.md)
