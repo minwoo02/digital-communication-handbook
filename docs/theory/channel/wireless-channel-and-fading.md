@@ -3098,6 +3098,4 @@ $$
 
 ---
 
-이전: [디지털 변조와 신호자리표: Bit에서 QAM까지](../modulation/digital-modulation-and-constellations.md)
-
-다음: [채널·잡음·BER와 Shannon Capacity](noise-ber-and-shannon-capacity.md)
+블록도 기준: [11. 채널](../../blocks/channel.md) · [전체 로드맵](../../roadmap.md)

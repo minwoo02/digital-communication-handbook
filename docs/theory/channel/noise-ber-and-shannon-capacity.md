@@ -1713,6 +1713,4 @@ BER ↓
 
 ---
 
-이전: [Wireless Channel 완전 정리: Path Loss·Multipath·Fading·Delay Spread·Doppler부터 MIMO까지](wireless-channel-and-fading.md)
-
-다음: [다중화와 다중 접속](../multiple-access/multiplexing-and-multiple-access.md)
+블록도 기준: [11. 채널](../../blocks/channel.md) · [전체 로드맵](../../roadmap.md)
