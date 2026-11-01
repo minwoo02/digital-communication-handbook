@@ -1,0 +1,79 @@
+site_name: Digital Communication Handbook
+site_url: https://minwoo02.github.io/digital-communication-handbook/
+repo_url: https://github.com/minwoo02/digital-communication-handbook
+theme:
+  language: ko
+  features:
+  - navigation.tabs
+  - navigation.top
+  - content.code.copy
+  - toc.follow
+  - navigation.path
+  palette:
+  - scheme: default
+    primary: indigo
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: 다크 모드
+  - scheme: slate
+    primary: indigo
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: 라이트 모드
+nav:
+- Home: index.md
+- Learning Roadmap: roadmap.md
+- Theory:
+  - Foundations:
+    - 개요: theory/foundations/index.md
+    - 디지털 통신의 전체 구조와 핵심 개념: theory/foundations/communication-system-overview.md
+    - 아날로그 정보가 디지털 전송 파형이 되기까지: theory/foundations/analog-information-to-digital-waveforms.md
+  - Modulation & Signal Space:
+    - 개요: theory/modulation/index.md
+    - '디지털 변조와 신호자리표: Bit에서 QAM까지': theory/modulation/digital-modulation-and-constellations.md
+    - '디지털 대역통과 변조와 신호공간: 안테나·동기 검파·BPSK·QPSK 완전 정리': theory/modulation/bandpass-modulation-and-signal-space.md
+    - '디지털 통신의 대역폭 효율과 I/Q 변조: Raised Cosine부터 직교 신호 복원까지': theory/modulation/bandwidth-efficiency-and-iq-modulation.md
+    - 'QPSK 완전 정리: I/Q 직교 변조부터 복소 기저대역 신호·Gray Encoding·위상 성상도와 대역폭 효율까지': theory/modulation/qpsk-and-complex-baseband.md
+    - 'QPSK 수신기 완전 정리: Correlator·Matched Filter부터 Bandpass/Baseband 복조와 OQPSK까지': theory/modulation/qpsk-receivers-and-oqpsk.md
+  - Channel & Performance:
+    - 개요: theory/channel/index.md
+    - 'Wireless Channel 완전 정리: Path Loss·Multipath·Fading·Delay Spread·Doppler부터 MIMO까지': theory/channel/wireless-channel-and-fading.md
+    - 채널·잡음·BER와 Shannon Capacity: theory/channel/noise-ber-and-shannon-capacity.md
+  - Coding & Error Control:
+    - 개요: theory/coding/index.md
+    - '채널 코딩과 에러 제어: Block Coding, Hamming Code, Syndrome와 Convolution Coding': theory/coding/channel-coding-and-error-control.md
+  - Multiple Access & Spread Spectrum:
+    - 개요: theory/multiple-access/index.md
+    - 다중화와 다중 접속: theory/multiple-access/multiplexing-and-multiple-access.md
+    - 'Spread Spectrum: DSSS, FHSS, THSS와 대역확산': theory/multiple-access/spread-spectrum.md
+- Applications:
+  - Hardware Design:
+    - 개요: applications/hardware/index.md
+    - 통신 시스템의 하드웨어 설계: applications/hardware/communication-hardware-design.md
+  - Bio / Implant Communication:
+    - 개요: applications/bio-implant/index.md
+    - Bio/Implant Communication으로 연결하기: applications/bio-implant/bio-and-implant-communication.md
+markdown_extensions:
+- tables
+- fenced_code
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.arithmatex:
+    generic: true
+- toc:
+    title: 이 글의 목차
+    permalink: true
+    toc_depth: 2-6
+extra_javascript:
+- assets/navigation.js
+- assets/mathjax.js
+- https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+extra_css:
+- assets/handbook.css
+plugins:
+- search

@@ -1,0 +1,20 @@
+{
+  "articles": 14,
+  "markdown_pages": 23,
+  "code_blocks": 672,
+  "tex_expressions": 1922,
+  "images": 11,
+  "code_and_tex_preservation": "PASS: all collected code/output blocks and rendered TeX expressions match Markdown",
+  "site_url": "https://minwoo02.github.io/digital-communication-handbook/",
+  "training_execution": "NOT RUN: content includes explanatory snippets and text diagrams",
+  "built_local_links_checked": 1064,
+  "built_local_links": "PASS",
+  "zensical_build": "PASS: 0.0.74, clean build, no issues",
+  "image_byte_preservation": "PASS: 11/11 image files match downloaded originals",
+  "standalone_structure": "PASS: 23 pages, one H1 each; 15 valid article outlines",
+  "browser_checks": [
+    "1440px desktop: sidebar toggle expands content; right TOC retained",
+    "390px mobile: no horizontal page overflow; QPSK formulas render",
+    "QPSK article: 237 rendered MathJax expressions, no math errors"
+  ]
+}
