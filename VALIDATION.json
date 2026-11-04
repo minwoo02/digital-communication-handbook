@@ -1,21 +1,24 @@
 {
-  "articles": 14,
-  "markdown_pages": 45,
+  "articles": 15,
+  "markdown_pages": 46,
   "code_blocks": 672,
   "tex_expressions": 1922,
   "images": 12,
   "code_and_tex_preservation": "PASS: all collected code/output blocks and rendered TeX expressions match Markdown",
   "site_url": "https://minwoo02.github.io/digital-communication-handbook/",
   "training_execution": "NOT RUN: content includes explanatory snippets and text diagrams",
-  "built_local_links_checked": 2948,
+  "built_local_links_checked": 3062,
   "built_local_links": "PASS",
   "zensical_build": "PASS: 0.0.74, clean build, no issues",
   "image_byte_preservation": "PASS: 11 original images retained; supplied block diagram added",
-  "standalone_structure": "PASS: 45 pages; 37 valid article outlines",
+  "standalone_structure": "PASS: one H1 per page; article outlines checked during build",
   "browser_checks": [
     "1440px desktop: sidebar toggle expands content; right TOC retained",
     "390px mobile: no horizontal page overflow; QPSK formulas render",
     "QPSK article: 237 rendered MathJax expressions, no math errors"
   ],
-  "block_order": "PASS: transmitter 01–10, channel 11, receiver 12–21; synchronization separate"
+  "block_order": "PASS: transmitter 01–10, channel 11, receiver 12–21; synchronization separate",
+  "original_articles": 14,
+  "new_article": "M-ary ASK/FSK: approved blog draft",
+  "new_article_display_equations": 28
 }
