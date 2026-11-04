@@ -1681,4 +1681,4 @@ Complexity
 
 ---
 
-블록도 기준: [05. 다중화](../../blocks/multiplexing.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [05. Multiplex](../../blocks/multiplexing.md) · [전체 로드맵](../../roadmap.md)

@@ -1,4 +1,4 @@
-# 12. 수신기 (RCV)
+# 12. RCV (수신기)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [11. 채널](channel.md)
+이전: [11. Channel](channel.md)
 
-다음: [13. 다중 접속](multiple-access-receive.md)
+다음: [13. Multiple Access](multiple-access-receive.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

@@ -1,4 +1,4 @@
-# 04. 채널 부호화 (Channel encode)
+# 04. Channel Encode (채널 부호화)
 
 [TOC]
 
@@ -13,8 +13,8 @@
 
 ## 블록도 순서
 
-이전: [03. 암호화](encryption.md)
+이전: [03. Encrypt](encryption.md)
 
-다음: [05. 다중화](multiplexing.md)
+다음: [05. Multiplex](multiplexing.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

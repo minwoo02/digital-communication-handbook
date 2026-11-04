@@ -1,4 +1,4 @@
-# 17. 역다중화 (Demultiplex)
+# 17. Demultiplex (역다중화)
 
 [TOC]
 
@@ -13,8 +13,8 @@
 
 ## 블록도 순서
 
-이전: [16. 검파](detection.md)
+이전: [16. Detect](detection.md)
 
-다음: [18. 채널 복호화](channel-decoding.md)
+다음: [18. Channel Decode](channel-decoding.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

@@ -1,4 +1,4 @@
-# 13. 다중 접속 (Multiple access)
+# 13. Multiple Access (다중 접속)
 
 [TOC]
 
@@ -15,8 +15,8 @@
 
 ## 블록도 순서
 
-이전: [12. 수신기](receiver.md)
+이전: [12. RCV](receiver.md)
 
-다음: [14. 주파수 역확산](frequency-despreading.md)
+다음: [14. Frequency Despread](frequency-despreading.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

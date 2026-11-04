@@ -1,4 +1,4 @@
-# 21. 포맷팅·정보 복원 (Format)
+# 21. Format (포맷팅·정보 복원)
 
 [TOC]
 
@@ -12,6 +12,6 @@
 
 ## 블록도 순서
 
-이전: [20. 소스 복호화](source-decoding.md)
+이전: [20. Source Decode](source-decoding.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

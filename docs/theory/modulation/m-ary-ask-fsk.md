@@ -4,7 +4,7 @@
 
 디지털 변조에서는 여러 비트를 하나의 Symbol로 묶어 반송파의 진폭·주파수·위상을 선택한다. 이 글에서는 M-ary 변조의 기본 관계를 정리하고, **M-ASK의 송수신과 잡음에 의한 판정 오류**, **M-FSK의 주파수 배치와 대역폭**을 다룬다.
 
-블록도에서는 **07. 대역통과 변조**, **15. 복조 및 샘플링**, **16. 검파**에 연결된다. 채널 잡음과 오류율은 11번 채널의 영향을 함께 고려하는 내용이다.
+블록도에서는 **15. Demodulate & Sample**을 중심으로 **16. Detect**, **07. Bandpass Modulate**에 연결된다. 채널 잡음과 오류율은 11번 채널의 영향을 함께 고려하는 내용이다.
 
 ## 1. M-ary 변조: 여러 비트를 하나의 Symbol로 묶기
 
@@ -307,6 +307,6 @@ M-FSK 수신기의 구체적인 검파 절차와 이후 M-PSK·QAM 내용은 별
 
 ## 관련 문서
 
-- [07. 대역통과 변조](../../blocks/bandpass-modulation.md)
-- [15. 복조 및 샘플링](../../blocks/demodulation-and-sampling.md)
-- [16. 검파](../../blocks/detection.md)
+- [07. Bandpass Modulate](../../blocks/bandpass-modulation.md)
+- [15. Demodulate & Sample](../../blocks/demodulation-and-sampling.md)
+- [16. Detect](../../blocks/detection.md)

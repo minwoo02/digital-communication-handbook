@@ -1,4 +1,4 @@
-# 15. 복조 및 샘플링 (Demodulate & Sample)
+# 15. Demodulate & Sample (복조 및 샘플링)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [14. 주파수 역확산](frequency-despreading.md)
+이전: [14. Frequency Despread](frequency-despreading.md)
 
-다음: [16. 검파](detection.md)
+다음: [16. Detect](detection.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

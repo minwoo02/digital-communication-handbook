@@ -1713,4 +1713,4 @@ BER ↓
 
 ---
 
-블록도 기준: [11. 채널](../../blocks/channel.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [11. Channel](../../blocks/channel.md) · [전체 로드맵](../../roadmap.md)

@@ -2205,4 +2205,4 @@ Receiver에서는 이 순서가 반대로 진행된다.
 
 ---
 
-블록도 기준: [10. 송신기](../../blocks/transmitter.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [10. XMT](../../blocks/transmitter.md) · [전체 로드맵](../../roadmap.md)

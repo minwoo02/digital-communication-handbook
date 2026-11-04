@@ -1,4 +1,4 @@
-# 18. 채널 복호화 (Channel decode)
+# 18. Channel Decode (채널 복호화)
 
 [TOC]
 
@@ -15,8 +15,8 @@
 
 ## 블록도 순서
 
-이전: [17. 역다중화](demultiplexing.md)
+이전: [17. Demultiplex](demultiplexing.md)
 
-다음: [19. 복호화](decryption.md)
+다음: [19. Decrypt](decryption.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

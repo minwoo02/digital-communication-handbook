@@ -2013,4 +2013,4 @@ $$
 
 ---
 
-블록도 기준: [04. 채널 부호화](../../blocks/channel-encoding.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [04. Channel Encode](../../blocks/channel-encoding.md) · [전체 로드맵](../../roadmap.md)

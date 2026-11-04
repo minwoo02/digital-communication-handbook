@@ -1,4 +1,4 @@
-# 11. 채널 (Channel)
+# 11. Channel (채널)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [10. 송신기](transmitter.md)
+이전: [10. XMT](transmitter.md)
 
-다음: [12. 수신기](receiver.md)
+다음: [12. RCV](receiver.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

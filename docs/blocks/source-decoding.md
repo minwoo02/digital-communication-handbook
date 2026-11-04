@@ -1,4 +1,4 @@
-# 20. 소스 복호화 (Source decode)
+# 20. Source Decode (소스 복호화)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [19. 복호화](decryption.md)
+이전: [19. Decrypt](decryption.md)
 
-다음: [21. 포맷팅·정보 복원](format-output.md)
+다음: [21. Format](format-output.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

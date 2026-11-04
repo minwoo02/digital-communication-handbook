@@ -1,4 +1,4 @@
-# 02. 소스 부호화 (Source encode)
+# 02. Source Encode (소스 부호화)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [01. 포맷팅](format-input.md)
+이전: [01. Format](format-input.md)
 
-다음: [03. 암호화](encryption.md)
+다음: [03. Encrypt](encryption.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

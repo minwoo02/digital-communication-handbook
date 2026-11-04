@@ -1,4 +1,4 @@
-# 동기화 (Synchronization)
+# Synchronization (동기화)
 
 [TOC]
 

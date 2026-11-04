@@ -2772,4 +2772,4 @@ OQPSK
 
 ---
 
-블록도 기준: [15. 복조 및 샘플링](../../blocks/demodulation-and-sampling.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [15. Demodulate & Sample](../../blocks/demodulation-and-sampling.md) · [전체 로드맵](../../roadmap.md)

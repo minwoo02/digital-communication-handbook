@@ -1,4 +1,4 @@
-# 07. 대역통과 변조 (Bandpass modulate)
+# 07. Bandpass Modulate (대역통과 변조)
 
 [TOC]
 
@@ -15,8 +15,8 @@
 
 ## 블록도 순서
 
-이전: [06. 펄스 변조](pulse-modulation.md)
+이전: [06. Pulse Modulate](pulse-modulation.md)
 
-다음: [08. 주파수 확산](frequency-spreading.md)
+다음: [08. Frequency Spread](frequency-spreading.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

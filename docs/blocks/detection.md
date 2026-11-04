@@ -1,4 +1,4 @@
-# 16. 검파 (Detect)
+# 16. Detect (검파)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [15. 복조 및 샘플링](demodulation-and-sampling.md)
+이전: [15. Demodulate & Sample](demodulation-and-sampling.md)
 
-다음: [17. 역다중화](demultiplexing.md)
+다음: [17. Demultiplex](demultiplexing.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

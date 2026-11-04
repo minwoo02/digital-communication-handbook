@@ -2693,4 +2693,4 @@ $$
 
 ---
 
-블록도 기준: [06. 펄스 변조](../../blocks/pulse-modulation.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [06. Pulse Modulate](../../blocks/pulse-modulation.md) · [전체 로드맵](../../roadmap.md)

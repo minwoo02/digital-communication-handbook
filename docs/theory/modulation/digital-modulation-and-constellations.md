@@ -3157,4 +3157,4 @@ Digital Modulation은 **Bit를 Symbol과 Constellation Point로 Mapping하여 �
 
 ---
 
-블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [07. Bandpass Modulate](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)

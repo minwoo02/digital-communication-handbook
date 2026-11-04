@@ -1,4 +1,4 @@
-# 05. 다중화 (Multiplex)
+# 05. Multiplex (다중화)
 
 [TOC]
 
@@ -11,8 +11,8 @@
 
 ## 블록도 순서
 
-이전: [04. 채널 부호화](channel-encoding.md)
+이전: [04. Channel Encode](channel-encoding.md)
 
-다음: [06. 펄스 변조](pulse-modulation.md)
+다음: [06. Pulse Modulate](pulse-modulation.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

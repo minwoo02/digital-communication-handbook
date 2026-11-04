@@ -1,4 +1,4 @@
-# 01. 포맷팅 (Format)
+# 01. Format (포맷팅)
 
 [TOC]
 
@@ -10,6 +10,6 @@
 
 ## 블록도 순서
 
-다음: [02. 소스 부호화](source-encoding.md)
+다음: [02. Source Encode](source-encoding.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

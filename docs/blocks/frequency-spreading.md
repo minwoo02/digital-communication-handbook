@@ -1,4 +1,4 @@
-# 08. 주파수 확산 (Frequency spread)
+# 08. Frequency Spread (주파수 확산)
 
 [TOC]
 
@@ -13,8 +13,8 @@
 
 ## 블록도 순서
 
-이전: [07. 대역통과 변조](bandpass-modulation.md)
+이전: [07. Bandpass Modulate](bandpass-modulation.md)
 
-다음: [09. 다중 접속](multiple-access-transmit.md)
+다음: [09. Multiple Access](multiple-access-transmit.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

@@ -1,4 +1,4 @@
-# 03. 암호화 (Encrypt)
+# 03. Encrypt (암호화)
 
 [TOC]
 
@@ -12,8 +12,8 @@
 
 ## 블록도 순서
 
-이전: [02. 소스 부호화](source-encoding.md)
+이전: [02. Source Encode](source-encoding.md)
 
-다음: [04. 채널 부호화](channel-encoding.md)
+다음: [04. Channel Encode](channel-encoding.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

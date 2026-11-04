@@ -1,4 +1,4 @@
-# 10. 송신기 (XMT)
+# 10. XMT (송신기)
 
 [TOC]
 
@@ -11,8 +11,8 @@
 
 ## 블록도 순서
 
-이전: [09. 다중 접속](multiple-access-transmit.md)
+이전: [09. Multiple Access](multiple-access-transmit.md)
 
-다음: [11. 채널](channel.md)
+다음: [11. Channel](channel.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

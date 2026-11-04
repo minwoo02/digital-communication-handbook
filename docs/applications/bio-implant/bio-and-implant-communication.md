@@ -2542,4 +2542,4 @@ Bio/Implant Communication은 **생체에서 발생한 정보를 Electrode와 Ana
 
 ---
 
-블록도 기준: [21. 포맷팅·정보 복원](../../blocks/format-output.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [21. Format](../../blocks/format-output.md) · [전체 로드맵](../../roadmap.md)

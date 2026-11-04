@@ -1,4 +1,4 @@
-# 06. 펄스 변조 (Pulse modulate)
+# 06. Pulse Modulate (펄스 변조)
 
 [TOC]
 
@@ -11,8 +11,8 @@
 
 ## 블록도 순서
 
-이전: [05. 다중화](multiplexing.md)
+이전: [05. Multiplex](multiplexing.md)
 
-다음: [07. 대역통과 변조](bandpass-modulation.md)
+다음: [07. Bandpass Modulate](bandpass-modulation.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

@@ -1,4 +1,4 @@
-# 09. 다중 접속 (Multiple access)
+# 09. Multiple Access (다중 접속)
 
 [TOC]
 
@@ -15,8 +15,8 @@
 
 ## 블록도 순서
 
-이전: [08. 주파수 확산](frequency-spreading.md)
+이전: [08. Frequency Spread](frequency-spreading.md)
 
-다음: [10. 송신기](transmitter.md)
+다음: [10. XMT](transmitter.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)

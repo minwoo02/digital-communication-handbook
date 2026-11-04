@@ -5289,4 +5289,4 @@ I/Q Representation과 Orthogonality는 이러한 수신기의 동작 원리를 �
 
 ---
 
-블록도 기준: [07. 대역통과 변조](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [07. Bandpass Modulate](../../blocks/bandpass-modulation.md) · [전체 로드맵](../../roadmap.md)

@@ -19,7 +19,7 @@
         const titles = item.querySelectorAll(':scope > .md-nav__link > .md-ellipsis');
         if (!titles.length) return;
         titles.forEach(title => title.querySelector('.handbook-nav-number')?.remove());
-        const value = titles[0].textContent.trim() === '개요' ? 0 : number++;
+        const value = ['개요', 'Overview'].includes(titles[0].textContent.trim()) ? 0 : number++;
         titles.forEach(title => {
           const prefix = document.createElement('span');
           prefix.className = 'handbook-nav-number';

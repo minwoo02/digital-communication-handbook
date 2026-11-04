@@ -1821,4 +1821,4 @@ Spread Spectrum은 **원래 정보 신호를 PN Code, Frequency Hopping 또는 T
 
 ---
 
-블록도 기준: [08. 주파수 확산](../../blocks/frequency-spreading.md) · [전체 로드맵](../../roadmap.md)
+블록도 기준: [08. Frequency Spread](../../blocks/frequency-spreading.md) · [전체 로드맵](../../roadmap.md)

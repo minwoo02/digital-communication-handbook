@@ -1,4 +1,4 @@
-# 14. 주파수 역확산 (Frequency despread)
+# 14. Frequency Despread (주파수 역확산)
 
 [TOC]
 
@@ -15,8 +15,8 @@
 
 ## 블록도 순서
 
-이전: [13. 다중 접속](multiple-access-receive.md)
+이전: [13. Multiple Access](multiple-access-receive.md)
 
-다음: [15. 복조 및 샘플링](demodulation-and-sampling.md)
+다음: [15. Demodulate & Sample](demodulation-and-sampling.md)
 
 [전체 로드맵](../roadmap.md) · [공통: 동기화](synchronization.md)
